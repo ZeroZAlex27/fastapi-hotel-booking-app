@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "fastapi-hotel-booking-app"
+version = "0.1.0"
+description = ""
+authors = ["Alexey <71120586+ZeroZAlex27@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.123.0"
+uvicorn = "^0.38.0"
+asyncpg = "^0.31.0"
+alembic = "^1.17.2"
+pydantic-settings = "^2.12.0"
+python-jose = "^3.5.0"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+bcrypt = "4.0.1"
+pydantic = {extras = ["email"], version = "^2.12.5"}
+python-multipart = "^0.0.20"
+black = "^25.11.0"
+sqladmin = {extras = ["full"], version = "^0.22.0"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

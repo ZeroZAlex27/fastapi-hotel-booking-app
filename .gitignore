@@ -1,0 +1,40 @@
+# --- Python cache & compiled files ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Poetry & virtual environments ---
+.venv/
+venv/
+
+# --- VS Code & IDE configs ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- Test & coverage ---
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache/
+pytest_cache/
+nosetests.xml
+coverage.xml
+
+# --- Build & packaging ---
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# --- Logs ---
+*.log
+logs/
+log/
+
+# --- Migrations ---
+alembic/versions/*.pyc
+alembic/__pycache__/
